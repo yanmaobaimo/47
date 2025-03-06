@@ -1,31 +1,24 @@
-# Documentation: https://haobogu.github.io/rmk/keyboard_configuration.html
+
 [keyboard]
-name = "47"# 名字
-product_name = "47"# 产品名
-vendor_id = 0x4c4b# 供应商id
-product_id = 0x4643# 产品id
-manufacturer = "yanmaobaimo"# 制造商
-chip = "nrf52840"# 芯片
+name = "RMK Keyboard"
+product_name = "My RMK Keyboard"
+vendor_id = 0x4c4b
+product_id = 0x4643
+manufacturer = "haobo"
+chip = "nrf52840"
 
 [matrix]
-# Input and output pins are mandatory 输入和输出引脚是强制性的
-# input_pins = ["P0_31", "P0_29", "P0_02", "P1_15", "P1_13", "P1_11", "P0_10", "P0_09", "P1_07", "P1_02", "P1_01", "P1_06"]
-#output_pins = ["P1_04", "P0_11", "P1_00", "P0_24"]
+# Input and output pins are mandatory
 input_pins = ["P1_00", "P1_01", "P1_02", "P1_07"]
 output_pins = ["P1_05", "P1_06", "P1_03"]
-# WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
-# 警告：目前 row2col/col2row 是在 RMK 的功能门控中设置的，这里的配置实际上什么都不做
+# WARNING: Currently row2col/col2row is set in RMK's feature gate, row2col config here is valid ONLY when you're using cloud compilation
 # row2col = true
 
 [layout]
 rows = 4
-# 行
 cols = 3
-# 列
 layers = 2
-# 层
 keymap = [
-# 键盘映射
     [
         ["A", "A", "A"],
         ["Kc1", "Kc2", "Kc3"],
@@ -42,7 +35,6 @@ keymap = [
 
 [light]
 # All light pins are high-active by default, uncomment if you want it to be low-active
-# 所有 light 引脚默认为高电平有效，如果您希望它为低电平有效，请取消注释
 capslock.pin = "P0_30"
 capslock.low_active = false
 # scrolllock.pin = "PA3"
@@ -51,13 +43,10 @@ capslock.low_active = false
 # numslock.pin = "PA5"
 # numslock.low_active = true
 
-
-
 [storage]
 # Storage feature is enabled by default
 # enabled = false
 # clear_storage = true
-
 
 [ble]
 enabled = true
