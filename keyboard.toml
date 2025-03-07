@@ -1,10 +1,10 @@
 [keyboard]
-name = "47"# 名字
-product_name = "47"# 产品名
-vendor_id = 0x4c4b# 供应商id
-product_id = 0x4643# 产品id
-manufacturer = "yanmaobaimo"# 制造商
-chip = "nrf52840"# 芯片
+name = "RMK Keyboard"
+product_name = "My RMK Keyboard"
+vendor_id = 0x4c4b
+product_id = 0x4643
+manufacturer = "haobo"
+chip = "nrf52840"
 
 [matrix]
 # Input and output pins are mandatory 输入和输出引脚是强制性的
