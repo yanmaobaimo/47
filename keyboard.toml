@@ -1,6 +1,6 @@
 [keyboard]
-name = "RMK 47 Keyboard"
-product_name = "My RMK 47 Keyboard"
+name = "RMK Keyboard"
+product_name = "My RMK Keyboard"
 vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "yanmaobaimo"
