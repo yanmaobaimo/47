@@ -1,6 +1,6 @@
 [keyboard]
-name = "RMK Keyboard"
-product_name = "My RMK Keyboard"
+name = "47"
+product_name = "47"
 vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "yanmaobaimo"
@@ -8,8 +8,8 @@ chip = "nrf52840"
 
 [matrix]
 # Input and output pins are mandatory 输入和输出引脚是强制性的
-input_pins = ["P1_04", "P0_11", "P1_00", "P0_24"]
-output_pins = ["P0_31", "P0_29", "P0_02", "P1_15", "P1_13", "P1_11", "P0_10", "P0_09", "P1_07", "P1_02", "P1_01", "P1_06"]
+input_pins = ["P0_17", "P0_20", "P0_22", "P0_24"]
+output_pins = ["P1_00", "P0_11", "P1_04", "P1_06", "P1_01", "P1_02", "P1_07", "P0_09", "P0_10", "P1_11", "P1_13", "P1_15"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # 警告：目前 row2col/col2row 是在 RMK 的功能门控中设置的，这里的配置实际上什么都不做
 # row2col = true
@@ -21,21 +21,9 @@ layers = 3
 keymap = [
     [
         ["Tab","Q","W","E","R","T","Y","U","I","O","P", "_"],
-        ["Caps","A","S","D","F","G","H","J","K","L",":","Quote"],
-        ["LShift", "Z","X","C","V","B","N","M","<",">","?","Enter"],
-        ["OSL(1)", "LT(2, Kc9)", "LM(1, LShift | LGui)", "A", "A", "A", "A", "A", "A", "A", "A", "MO(1)"]
-    ],
-    [
-        ["TO(1)", "TT(1)", "TG(2)", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
-        ["DF(1)", "_", "_", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
-        ["_", "_", "_", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
-        ["_", "_", "_", "A", "A", "A", "A", "A", "A", "A", "A", "_"]
-    ],
-        [
-        ["TO(1)", "TT(1)", "TG(2)", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
-        ["DF(1)", "_", "_", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
-        ["_", "_", "_", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
-        ["_", "_", "_", "A", "A", "A", "A", "A", "A", "A", "A", "A"]
+        ["Caps","A","S","D","F","G","H","J","K","L","Semicolon", "Quote"],
+        ["LShift", "Z","X","C","V","B","N","M","Comma", "Dot", "Slash"],
+        ["LCtrl", "LGui", "LAlt","TG(1)" "Space", "_","Enter", "Backspace","TG(2)","PrtSc","MO(2)","MO(1)"]
     ],
 ]
 
@@ -65,5 +53,5 @@ battery_adc_pin = "vddh"
 # adc_divider_total = 2806
 charge_state.pin = "P0_25"
 charge_state.low_active = false
-charge_led.pin = "P0_20"
+charge_led.pin = "P0_29"
 charge_led.low_active = false
