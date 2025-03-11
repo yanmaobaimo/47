@@ -1,6 +1,7 @@
+
 [keyboard]
-name = "47"
-product_name = "47"
+name = "lh47"
+product_name = "lh47"
 vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "yanmaobaimo"
@@ -21,9 +22,9 @@ layers = 3
 keymap = [
     [
         ["Tab","Q","W","E","R","T","Y","U","I","O","P", "_"],
-        ["Caps","A","S","D","F","G","H","J","K","L","Semicolon", "_"],
-        ["LShift", "Z","X","C","V","B","N","M","_", "_","_"],
-        ["LCtrl", "LGui", "LAlt","TG(1)" ，"Space", "_", "Enter", "Backspace","TG(2)","_","MO(2)","MO(1)"]
+        ["Caps","A","S","D","F","G","H","J","K","L","Semicolon", "Quote"],
+        ["LShift", "Z","X","C","V","B","N","M","Comma", "Dot", "Slash"],
+        ["LCtrl", "LGui", "LAlt","TG(1)" ,"Space", "_","Enter", "Backspace","TG(2)","PrtSc","MO(2)","MO(1)"]
     ],
 ]
 
