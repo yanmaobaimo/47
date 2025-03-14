@@ -68,3 +68,23 @@ charge_state.pin = "P0_25"
 charge_state.low_active = false
 charge_led.pin = "P0_29"
 charge_led.low_active = false
+
+[storage]
+# Storage feature is enabled by default
+# 默认开启存储功能
+enabled = true
+# Start address of local storage, MUST BE start of a sector.
+# If start_addr is set to 0(this is the default value), the last `num_sectors` sectors will be used.
+# 本地存储的起始地址，必须是扇区的起始地址。
+# 如果 start_addr 设置为 0（这是默认值），则将使用最后一个 num_sectors 扇区。
+start_addr = 0x00000000
+# How many sectors are used for storage, the default value is 2
+# 存储使用了多少个扇区，默认值为 2
+num_sectors = 2
+# Clear storage at keyboard boot. 
+# Set it to true will reset the storage(including keymap, BLE bond info, etc.) at each reboot.
+# This option is useful when testing the firmware.
+# 在键盘启动时清除存储空间。
+# 将其设置为 true 将在每次重启时重置存储（包括键盘映射、BLE 绑定信息等）。
+# 此选项在测试固件时很有用。
+clear_storage = false
