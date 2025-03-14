@@ -23,19 +23,19 @@ keymap = [
         ["Escape", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Tab"],
         ["CapsLock", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Semicolon", "Quote"],
         ["LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", "Grave"],
-        ["LCtrl", "LGui", "LAlt", "MO(1)", "Space", "_", "Enter", "Backspace", "Delete", "TO(1)", "TO(2)", "MO(2)"]
+        ["LCtrl", "LGui", "LAlt", "MO(1)", "Space", "Enter", "Backspace", "Delete", "TO(1)", "TO(2)", "MO(2)"]
     ],
     [
         ["F1", "F2", "F3", "F4", "F5", "_", "Kp7", "Kp8", "Kp9", "KpSlash", "KpAsterisk", "_"],
         ["_", "_", "UP", "_", "_", "_", "Kp4", "Kp5", "Kp6", "KpMinus", "KpPlus", "_"],
         ["_", "Left", "Down", "Right", "_", "_", "Kp1", "Kp2", "Kp3", "Equal", "_", "_"],
-        ["User11", "_", "_", "_", "_", "_", "_", "Kp0", "KpDot", "TO(0)", "TO(2)", "KpEnter"]
+        ["User11", "_", "_", "_", "_", "_", "Kp0", "KpDot", "TO(0)", "TO(2)", "KpEnter"]
     ],
     [
         ["F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12"],
         ["_", "_", "UP", "_", "_", "_", "_", "_", "_", "UP", "_", "_"],
         ["_", "Left", "Down", "Right", "_", "_", "_", "_", "Left", "Down", "Right", "_"],
-        ["User11", "_", "_", "_", "_", "_", "_", "_", "_", "TO(0)", "TO(1)", "_"]
+        ["User11", "_", "_", "_", "_", "_", "_", "_", "TO(0)", "TO(1)", "_"]
     ],
 ]
 
