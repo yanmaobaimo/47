@@ -29,7 +29,7 @@ keymap = [
     [
         ["F1", "F2", "F3", "F4", "F5", "_", "Kp7", "Kp8", "Kp9", "KpSlash", "KpAsterisk", "_"],
         ["_", "_", "UP", "_", "_", "_", "Kp4", "Kp5", "Kp6", "KpMinus", "KpPlus", "_"],
-        ["_", "Left", "Down", "Right", "_", "_", "Kp1", "Kp2", "Kp3", "Equal", "_", "_"],
+        ["_", "Left", "Down", "Right", "_", "_", "Kp1", "Kp2", "Kp3", "KpEqual", "_", "_"],
         ["User11", "_", "_", "_", "_", "_", "_", "Kp0", "KpDot", "TO(0)", "TO(2)", "KpEnter"]
     ],
     [
